@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">注入libtool</string>
+    <string name="xposed_description">注入libtool 作者：water qq群：1037044062</string>
+</resources>

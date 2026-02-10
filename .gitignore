@@ -1,0 +1,47 @@
+# Gradle files
+.gradle/
+build/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+.continue
+
+<<<<<<< HEAD
+# Log/OS Files
+*.log
+
+# Android Studio generated files and folders
+captures/
+.externalNativeBuild/
+.cxx/
+*.aab
+*.apk
+output-metadata.json
+
+# IntelliJ
+*.iml
+.idea/
+misc.xml
+deploymentTargetDropDown.xml
+render.experimental.xml
+=======
+# IDE files
+.idea/
+*.iml
+>>>>>>> 449c53e (Initial commit)
+
+# Keystore files
+*.jks
+*.keystore
+
+<<<<<<< HEAD
+# Google Services (e.g. APIs or Firebase)
+google-services.json
+
+# Android Profiling
+=======
+# Execution reports
+/captures/
+>>>>>>> 449c53e (Initial commit)
+*.hprof

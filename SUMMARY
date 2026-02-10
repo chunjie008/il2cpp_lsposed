@@ -1,0 +1,38 @@
+App Launch Toast Module
+
+This LSposed module displays a toast message "哈哈哈我来啦" whenever any application starts.
+
+## Features
+- Automatically detects application launches
+- Shows a customizable toast message
+- Works with all user applications
+- Excludes system apps and the module itself to avoid conflicts
+
+## Compatibility
+- Android 7.0+ (API 24+)
+- LSposed Framework
+- Xposed API 82+
+
+## Scope
+- All user applications (excludes system apps and com.android.* packages)
+
+## Usage
+1. Install the module APK
+2. Enable it in LSposed Manager
+3. Reboot your device
+4. Launch any app to see the toast message
+
+## Technical Details
+- Hooks Application.onCreate() method
+- Uses main thread handler for toast display
+- Includes error handling to prevent app crashes
+- Package name filtering for optimal performance
+
+## Author
+wzh
+
+## Version
+1.0
+
+## Package Name
+com.wzh.libtool
